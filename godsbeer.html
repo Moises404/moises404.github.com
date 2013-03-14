@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+	<html>
+		<head>
+			<link rel="stylesheet" href="css/stylesheet.css" type="text/css" media="screen">
+			<link rel="stylesheet" href="css/toolTip.css" type="text/css" media="screen">
+			
+			<link rel="stylesheet" href="css/jquery.maximage.css" type="text/css" media="screen" charset="utf-8" />
+			<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" charset="utf-8" />
+			
+			
+			<!--[if !IE 7]>
+				<style type="text/css">
+					#wrap {display:table;height:100%}
+				</style>
+			<![endif]-->
+			
+			<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>-->
+			<script type="text/javascript" src="js/jquery8.js"></script>			
+			<script type="text/javascript" src="js/jquery.betterTooltip.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$('.tTip').betterTooltip({speed: 150, delay: 100});
+				});
+			</script>
+			
+			<script type="text/javascript" src="js/jquery-ui-1.7.1.custom.min.js"></script>
+			<script type="text/javascript" src="js/execute.js"></script>
+			<script type="text/javascript" src="js/okhover.js"></script>
+			<script type="text/javascript" src="js/okHoverEffect.js"></script>
+			
+			<script src="js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
+			
+			
+		<!-- MAXIMAGE2 stylesheet -->
+		
+			
+		
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		
+				<style type="text/css" media="screen">
+					/* I wanted to center my loader */
+					#cycle-loader {
+						height:32px;
+						left:50%;
+						margin:-8px 0 0 -8px;
+						position:absolute;
+						top:50%;
+						width:32px;
+						z-index:999;
+					}
+					
+					/*I want to avoid jumpiness as the JS loads, so I initially hide my cycle*/
+					#maximage {
+						display:none;/* Only use this if you fade it in again after the images load */
+						position:fixed !important;
+					}
+					
+					/*Set my gradient above all images*/
+					#gradient {
+						left:0;
+						height:100%;
+						position:absolute;
+						top:0;
+						width:100%;
+						z-index:999;
+					}
+					
+					/*Set my logo in bottom left*/
+					#logo {
+						top:30px;
+						height:auto;
+						left:30px;
+						position:absolute;
+						width:50px;
+						z-index:1000;
+					}
+					#logo img {
+						width:100%;
+					}
+					
+					#arrow_left, #arrow_right {
+						bottom:30px;
+						height:67px;
+						position:absolute;
+						right:30px;
+						width:36px;
+						z-index:1000;
+					}
+					#arrow_left {
+						right:86px;
+					}
+					
+					#arrow_left:hover, #arrow_right:hover {
+						bottom:29px;
+					}
+					#arrow_left:active, #arrow_right:active {
+						bottom:28px;
+					}
+					
+					a {color:#666;text-decoration:none;}
+					a:hover {text-decoration:underline;}
+					
+					.in-slide-content { 
+						color:#333;
+						float:right;
+						font-family:'Helvetica Neue', helvetica;
+						font-size:12px;
+						font-weight:normal;
+						right:0;
+						margin:40px;
+						padding:20px;
+						position:absolute;
+						top:0;
+						width:700px;
+						z-index:9999; /* Show above .gradient */
+						/*text-shadow: 0 1px 0 #fff;*/
+					}
+					.light-text {color:#ddd;text-shadow: 0 1px 0 #666;}
+					.smaller-text {font-size:30px;}
+					.youtube-video, video {
+						left:0;
+						position:absolute;
+						top:0;
+					}
+				</style>
+		
+		<!-- END of MAXIMAGE2 stylesheet -->	
+		<link rel="stylesheet" href="css/godsbeer.css" type="text/css" media="screen">
+		</head>
+		
+		<body>
+		
+		<!--<a href="http://www.aaronvanderzwan.com/blog/2011/11/maximage-2-0-beta1-release/" id="logo"></a>-->
+		<a href="" id="arrow_left"><img src="imgs/maximage/arrow_left.png" alt="Slide Left" /></a>
+		<a href="" id="arrow_right"><img src="imgs/maximage/arrow_right.png" alt="Slide Right" /></a>
+		
+		<img id="cycle-loader" src="imgs/maximage/ajax-loader.gif" />
+		<div id="maximage">
+			<div>
+				<img src="imgs/flyers/transparent.png" alt="" />
+				<!--<img id="gradient" src="imgs/maximage/gradient.png" alt="" />-->
+				<div class="in-slide-content" id="centerTitle" style="display:none;">
+					<img id="mainIcon" src="imgs/godsBeerIcon.png" alt="MaxImage: Uses jQuery Cycle Plugin to create background slideshows" />
+					<img id="mainImage" src="imgs/godsBeer_detail.jpg"/>
+<pre class="info">
+Gods Beer is an interactive
+fridge that emanates a 1500
+watt light and heavenly
+music when you try to open it
+and see whats inside.
+</pre>
+				</div>
+			</div>
+			<div class="in-slide-content">
+				<!--<img src="imgs/flyers/flyersBoardView.png" alt="" />-->
+				<img id="gradient" src="imgs/maximage/gradient.png" alt="" />
+				<div class="in-slide-content" light-text smaller-text id="centerTitle" style="display:none;">
+					<!--p>Maximage does not assume anything about your in-slide HTML.  So you can resize HTML5 videos to fill the screen (using the Maximage helper function) or you can place it on the page with a standard maximized background image. PLEASE NOTE: HTML5 flash fallback does not work for IE7 &amp; IE8 in slideshows at this time.  It has proven more difficult than was expected.</p>-->
+					<!--<p><a href="http://blog.aaronvanderzwan.com/2011/11/maximage-2-0-beta1-release/" target="_blank" style="font-weight:bold">More info >></a></p>-->
+				</div>
+				<!-- "Video For Everybody" http://camendesign.com/code/video_for_everybody -->
+				<iframe width="100%" height="100%" src="http://www.youtube.com/embed/NDL5AIR55Xw" frameborder="0" class="youtube-video" allowfullscreen=""></iframe>
+			</div>
+		</div>
+		
+		<script type="text/javascript" charset="utf-8">
+			$(function(){
+				$('#maximage').maximage({
+					cycleOptions: {
+						fx: 'fade',
+						speed: 1000, // Has to match the speed for CSS transitions in jQuery.maximage.css (lines 30 - 33)
+						timeout: 0,
+						prev: '#arrow_left',
+						next: '#arrow_right',
+						pause: 1,
+						before: function(last,current){
+							if(!$.browser.msie){
+								// Start HTML5 video when you arrive
+								if($(current).find('video').length > 0) $(current).find('video')[0].play();
+							}
+						},
+						after: function(last,current){
+							if(!$.browser.msie){
+								// Pauses HTML5 video when you leave it
+								if($(last).find('video').length > 0) $(last).find('video')[0].pause();
+							}
+						}
+					},
+					onFirstImageLoaded: function(){
+						jQuery('#cycle-loader').hide();
+						jQuery('#maximage').fadeIn('fast');
+					}
+				});
+	
+				// Helper function to Fill and Center the HTML5 Video
+				jQuery('video,object').maximage('maxcover');
+	
+				// To show it is dynamic html text
+				jQuery('.in-slide-content').delay(670).fadeIn();
+			});
+		</script>
+		
+			
+
+			<div id="footer">
+					<ul id="nav-reflection">
+						<li class="button-color-1 tTip" title="Hello Internet"><a href="../about.html">Link Text</a></li>
+						<li class="button-color-2 tTip" title="Twitter Aviary"><a href="../TwitterAviary/">Link Text</a></li>
+						<li class="button-color-3 tTip" title="Flyers"><a href="../flyers.html">Link Text</a></li>
+						<li class="button-color-4 tTip" title="God's Beer"><a href="../godsbeer.html">Link Text</a></li>
+						<li class="button-color-5 tTip" title="Isometric Web"><a href="../isometricWeb.html">Link Text</a></li>
+						<li class="button-color-6 tTip" title="Timeline GUI"><a href="../timeline.html">Link Text</a></li>
+						<li class="button-color-7 tTip" title="Mozaic Zoom"><a href="../mozaicZoom.html">Link Text</a></li>
+						<li class="button-color-8 tTip" title="Logotrance"><a href="../logo.html">Link Text</a></li>
+						<li class="button-color-9 tTip" title="ART404"><a href="../art404.html">Link Text</a></li>
+					</ul>
+					<img id="toolbar" class="center container" src="imgs/mo2.png"/>			
+			</div>
+		</body>
+	</html>
