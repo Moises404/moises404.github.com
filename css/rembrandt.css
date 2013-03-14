@@ -1,0 +1,19 @@
+#mainIcon {
+	margin-left: 300px;
+}
+
+#centerTitle {
+	position:absolute;
+	top:50%;
+	margin-top: -200px;
+	bottom:0;
+	left:50%;
+	/*margin:-75px -355px;*/
+	height:140px;
+	width:70%;
+}
+
+#MozaicZoom_info {
+	margin-left: 360px;
+	margin-top: 30px;
+}

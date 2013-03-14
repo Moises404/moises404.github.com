@@ -1,0 +1,56 @@
+#mainIcon {
+	width: 85px;
+	margin: -25px 0;
+}
+
+#centerTitle {
+	position:absolute;
+	/*margin-top: -260px;*/
+	bottom:0;
+	left:50%;
+	margin:-180px 80px;
+}
+
+#info {
+	position: absolute;
+	margin-left: -190px;
+	margin-top: -5px;
+}
+
+
+.timelineList {
+	width: 170px;
+}
+
+.timelineUlist {
+	width: 150px;
+	float: left;
+}
+
+.timelineImages {
+	padding: 15px 0 15px 0;
+}
+
+.in-slide-content {
+
+color: black;
+font-family: 'Helvetica Neue', helvetica;
+font-size: 14px;
+font-weight: normal;
+}
+
+.transform-h-x {
+	-webkit-transform: matrix(1.42, 0, 0, 0.71, 0, 0) rotate(45deg);
+	-moz-transform: matrix(1.42, 0, 0, 0.71, 0, 0) rotate(45deg);
+}
+
+img.transform-x-y {
+	-webkit-transform: matrix(1, 0.5, 0, 1, 0, 0);
+	-moz-transform (1, 0, 0.5, 0, 1, 0, 0);
+}
+
+#zipFile {
+	position: absolute;
+	margin: 135px 0 0 -305px;
+}
+

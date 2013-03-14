@@ -1,0 +1,39 @@
+#mainIcon {
+	width: 85px;
+	/*margin-left: 300px;*/
+}
+
+#centerTitle {
+	position:absolute;
+	top:25%;
+	/*margin-top: -260px;*/
+	bottom:0;
+	left:50%;
+	margin:-75px -60px;
+}
+
+#info {
+	margin-left: -90px;
+	margin-top: 30px;
+}
+
+
+.timelineList {
+	width: 170px;
+}
+
+.timelineUlist {
+	width: 150px;
+	float: left;
+}
+
+.timelineImages {
+	padding: 15px 0 15px 0;
+}
+
+.in-slide-content {
+color: white;
+font-family: 'Helvetica Neue', helvetica;
+font-size: 14px;
+font-weight: normal;
+}

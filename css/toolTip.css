@@ -1,0 +1,28 @@
+/*-----------------------------------------------------------------------------------------------*/
+/*                                          GENERAL LAYOUT                                       */
+/*-----------------------------------------------------------------------------------------------*/	
+
+		#cloud1 {top: 153px; left: 230px;}
+		#cloud2 {top: 168px; left: 440px;}
+		#cloud3 {top: 228px; left: 100px;}
+		#cloud4 {top: 350px; left: 370px;}
+		#cloud5 {top: 370px; left: 60px;}
+				
+/*-----------------------------------------------------------------------------------------------*/
+/*                                         TOOLTIP STYLES                                        */
+/*-----------------------------------------------------------------------------------------------*/
+
+.tip {
+	color: white;
+	border-radius: 13px;
+	padding: 2px 10px 2px 10px;
+	text-align: center;
+	overflow: hidden;
+	display: none;
+	position: absolute;
+	z-index: 1000;
+	background: black;
+	opacity: .77;
+	position: relative;
+	float: left;
+	}

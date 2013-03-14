@@ -1,0 +1,52 @@
+body {
+	background-image: url("http://static.tumblr.com/321vm9s/zGcm2t2ty/glitch2ba.gif");
+	background-color: black;
+}
+
+#mainImage {
+	width: 220px;
+	padding: 0 40px;
+	float: left;
+}
+
+#mainIcon {
+	width: 85px;
+	margin: 80px 280px;
+}
+
+#centerTitle {
+	top:0;
+	margin: 0 -325px;
+	bottom: 0;
+	height: 100%;
+}
+
+#info {
+	margin-top: -50px;
+	width: 600px;
+
+}
+
+.infoLink {
+	margin-left: 90px;
+	margin-top: 0;
+}
+
+#artBorder {
+	margin-left: 0;
+	height: 100%;
+	width: 650px;
+	overflow: hidden;
+	border: solid 1px white;
+	/*border-radius: 5px;*/
+	background-color: white;
+	box-shadow: 10px;
+}
+
+.in-slide-content {
+color: black;
+font-family: 'Helvetica Neue', helvetica;
+font-size: 12px;
+font-weight: normal;
+}
+

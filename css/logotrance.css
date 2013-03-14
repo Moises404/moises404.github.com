@@ -1,0 +1,40 @@
+body { 
+	background: white; 
+	}
+	
+#wrapper {
+	margin: 50px auto;
+	padding: 10px; 
+	width: 854px; 
+	height: 480px; 
+	border: white solid 1px;
+	}
+	
+#centerTitle {
+	position:fixed;
+	top:25%;
+	/*margin-top: -260px;*/
+	bottom:0;
+	left:50%;
+	margin:-75px -420px;
+}
+
+#mainImage {
+	width: 28px;
+	position: absolute;
+	margin: 200px  400px;
+	z-index: -5;
+	
+}
+
+#mainInfo {
+	width: 28px;
+	position: absolute;
+	margin: 425px  350px;
+	z-index: 10;
+	
+}
+
+#video-example {
+	z-index: 200;
+}

@@ -1,0 +1,72 @@
+#centerTitle {
+	position:absolute;
+	top:5%;
+	bottom:0;
+	left:50%;
+	margin:0 -355px;
+	height:140px;
+	width:70%;
+}
+.moises404 {
+	display: block;
+	position: absolute;
+	margin: auto;
+}
+
+.svg404 {
+	margin-top: 12px;
+	margin-left: -2px;
+}
+
+#profileDIV {
+	padding: 30px 80px;
+	width: 300px;
+}
+		
+	h1 {
+		font-size: 20px;
+		color: #7f2d2d;
+		text-align: center;
+		}
+		
+	p {
+		text-align: center;
+		}
+		
+#profile {
+	float: left;
+	padding: 3px;
+	border: solid #000;
+	border-width:1px;
+	}
+
+#aboutInfo {
+	position: absolute;
+	width: 300px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 160px;
+	padding-left: 25px;
+}
+
+#likes {
+	position: relative;
+	width: 150px;
+	float: left;
+	margin-top: 60px;
+	margin-left: 160px;
+	padding-left: 25px;
+}
+
+#likeLinks {
+	position: relative;
+	width: 200px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 175px;
+	padding-left: 25px;
+}
+
+li {
+	list-style-type: circle;
+}
