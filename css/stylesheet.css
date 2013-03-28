@@ -72,6 +72,12 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 	border-width:1px;
 	}
 
+#arcadeLink {
+	width:200px;
+	position: absolute;
+	margin-left: -250px;
+}
+
 #aboutInfo {
 	float: left;
 	margin-top: 12px;
